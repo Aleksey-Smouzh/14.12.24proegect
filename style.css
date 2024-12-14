@@ -7,6 +7,7 @@ button {
   background: blue;
   border-radius: 5px;
   color: aliceblue;
+  cursor: pointer;
 }
 .container {
   display: flex;
@@ -18,9 +19,10 @@ input {
   width: 350px;
   height: 30px;
   margin: 1vh;
-  border: 1px solid black;
+  border: 1px solid rgb(105, 100, 100);
   border-radius: 5px;
   box-shadow: 10px 14px 20px rgba(84, 80, 80, 0.825);
+  border: none;
 }
 
 form {
@@ -30,11 +32,13 @@ form {
   background-color: rgb(245, 245, 235);
   box-shadow: 10px 14px 5px rgb(175, 175, 233);
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn {
   width: 49vh;
   height: 30px;
+  border: none;
   box-shadow: 10px 14px 25px rgba(84, 80, 80, 0.825);
 }
 
@@ -48,6 +52,7 @@ form {
 .btn_tzy {
   height: 30px;
   padding: 4px;
+  border: none;
 }
 
 .tabela {
@@ -87,8 +92,10 @@ td {
   background: yellowgreen;
   width: 7vh;
   height: 3vh;
+  border: none;
 }
 .delete__btn {
   width: 7vh;
   height: 3vh;
+  border: none;
 }
