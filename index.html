@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>interaktywna tabela</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <h1 class="header_tabela">Interaktywna Tabela</h1>
+
+        <form action="">
+            <div class="imie">
+                <label for="imie"> </label>
+                <input type="text" id="imie" required class="input_imie" placeholder="imie" name="imie">
+
+            </div>
+
+            <div class="wiek">
+                <label for="wiek"> </label>
+                <input type="number" id="wiek" class="input_wiek" placeholder="wiek" name="wiek">
+
+            </div>
+
+            <div class="miasto">
+                <label for="miasto"></label>
+                <input type="text" id="miasto" class="input_miasto" placeholder="miasto" name="miasto">
+
+            </div>
+
+
+
+            <div class="button_form">
+                <button class="btn" type="button" onclick="dadajDane()">Dodaj/Edytuj Dane</button>
+            </div>
+        </form>
+
+        <div class="buttton_tzy">
+            <button class="btn_tzy" type="button" onclick="filtrujDane()">Pokaz osoby powyzej 30 lat</button>
+            <button class="btn_tzy" type="button" onclick="mapujDane()">Zwiensz wiek o 5</button>
+            <button class="btn_tzy" type="button" onclick="zresetujDane()">Restsrtuj</button>
+        </div>
+
+
+        <div class="tabela">
+            <table>
+                <thead>
+                    <tr class="">
+                        <th>#</th>
+                        <th>IMIE</th>
+                        <th>WIEK</th>
+                        <th>MIASTO</th>
+                        <th>AKCJE</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="tabele_btn" type="button" onclick="editData($,{index})">Edytuj</button>
+
+                            <button type="button"  onclick="deleteData($,{index})">usun</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js?v=<?php echo time(); ?>"></script>
+</body>
+
+</html>
+

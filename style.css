@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  background: blue;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 350px;
+  height: 30px;
+  margin: 1vh;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 49vh;
+  height: 30px;
+}
+
+.buttton_tzy {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.btn_tzy {
+  height: 30px;
+  padding: 4px;
+}
+
+.tabela {
+  margin-top: 10px;
+  width: 86vh;
+  display: flex;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86vh;
+  /* background-color: blue; */
+  border: 1px solid white;
+  color: #fdfdfd;
+}
+td,
+th {
+  width: 20vh;
+  text-align: center;
+  /* border: 1px solid white; */
+}
+th {
+  border: 1px solid;
+  background: blue;
+}
+td {
+  color: black;
+  height: 4vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(245, 244, 242) !important;
+}
+.tabele_btn {
+  background: yellowgreen;
+  width: 7vh;
+  height: 3vh;
+}
