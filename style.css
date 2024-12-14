@@ -57,7 +57,7 @@ form {
 
 .tabela {
   margin-top: 10px;
-  width: 86vh;
+  
   display: flex;
 }
 
@@ -98,4 +98,5 @@ td {
   width: 7vh;
   height: 3vh;
   border: none;
+  background:red;
 }
