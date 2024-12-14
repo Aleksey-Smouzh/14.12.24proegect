@@ -20,15 +20,26 @@ input {
   margin: 1vh;
   border: 1px solid black;
   border-radius: 5px;
+  box-shadow: 10px 14px 20px rgba(84, 80, 80, 0.825);
+}
+
+form {
+  border: 1px solid rgb(234, 238, 226);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(245, 245, 235);
+  box-shadow: 10px 14px 5px rgb(175, 175, 233);
+  margin-bottom: 10px;
 }
 
 .btn {
   width: 49vh;
   height: 30px;
+  box-shadow: 10px 14px 25px rgba(84, 80, 80, 0.825);
 }
 
 .buttton_tzy {
-  width: 50%;
+  width: 55vh;
   display: flex;
   justify-content: space-between;
   margin: 10px;
@@ -74,6 +85,10 @@ td {
 }
 .tabele_btn {
   background: yellowgreen;
+  width: 7vh;
+  height: 3vh;
+}
+.delete__btn {
   width: 7vh;
   height: 3vh;
 }
